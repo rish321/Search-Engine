@@ -1,0 +1,12 @@
+1. Split files:
+	install.sh xml_file_name
+2. Make Index:
+	run.sh xml_file_name Index_file_name
+3. Make Secondary_Index:
+	secondary.sh Index_file_name
+4. Search Query:
+	search.sh Index_file_name
+*clarifications needed
+*data split and secondary index will be made in the folder of script files so have enough disk space
+*search.sh currently assumes that we have Index file name
+*you can enter queries untill you press a blank enter (only a return char)
